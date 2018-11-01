@@ -12,6 +12,7 @@ public:
 	Rational add(Rational i);
 	Rational sub(Rational i);
 	Rational div(Rational i);
+	Rational mult(Rational i);
 	void print();
 
 private:
