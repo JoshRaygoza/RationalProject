@@ -27,7 +27,7 @@ int main()
 	return 0;
 }
 
-Rational getrat(std::string nprompt , std::string dprompt)
+Rational getrat(std::string nprompt , std::string dprompt)// This function prompts for a numberator and a denominator
 {
 	std::cout << nprompt;
 	int n;
