@@ -59,7 +59,7 @@ Rational Rational::mult(Rational i)
 	if(d==0)
 	{
 		std::cout << "Undefined" << std::endl;
-	return Rational();
+		return Rational();
 	}
 	else
 		return Rational( n, d);
