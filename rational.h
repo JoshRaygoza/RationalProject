@@ -12,7 +12,7 @@ public:
 	Rational sub(Rational i);
 	Rational div(Rational i);
 	Rational mult(Rational i);
-	void print(std::string sentence = "");
+	void print();
 
 private:
 	int m_a;
