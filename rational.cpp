@@ -1,5 +1,6 @@
-#include <iostream>
-#include "rational.h"
+#include<iostream>
+#include<string>
+#include"rational.h"
 
 
 Rational Rational::sub(Rational i)
@@ -26,7 +27,7 @@ Rational Rational::div( Rational i)
 	else
 		return Rational( n, d);
 }
-void Rational::print(std::string sentence = “”);
+void Rational::print(std::string sentence = “”)
 {
 	std::cout << sentence << m_a << “/“<< m_b << std::endl;
 }
