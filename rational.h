@@ -2,7 +2,6 @@
 #define RATIONAL_H
 
 #include <string>
-using namespace std;
 
 class Rational
 {
@@ -13,10 +12,10 @@ public:
 	Rational sub(Rational i);
 	Rational div(Rational i);
 	Rational mult(Rational i);
-	void print();
+	void print(std::string sentence = "");
 
 private:
-	m_a;
-	m_b;
+	int m_a;
+	int m_b;
 };
 #endif
