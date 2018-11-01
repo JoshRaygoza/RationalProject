@@ -1,7 +1,15 @@
+#include<iostream>
+#include<string>
 #include "rational.h"
-#include <iostream>
-#include <string>
-
-using namespace std;
 
 int main()
+{
+	Rational i = Rational(2, 2);
+	Rational n = Rational(3, 3);
+	
+	Rational z = i.add(n);
+	
+	z.print();
+
+	return 0;
+}
