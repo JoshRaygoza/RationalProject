@@ -1,5 +1,5 @@
 /*
-Authors: Alec Guinan
+Authors: Alec Guinan,Matthew Carlson,Joshua Raygoza
 File name: main.cpp
 Date Created: 11/1/2018
 Purpose: This program uses a class called rational numbers and adds, subtracts, multiplies, and divides them.
