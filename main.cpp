@@ -9,22 +9,22 @@ Rational getrat(std::string nprompt, std::string dprompt);
 
 int main()
 {
-	Rational i = getrat("Please enter your numerator: ", "Please enter your denominator: ");
+	Rational i = getrat("Please enter your numerator: ", "Please enter your denominator: ");// this prompts the user for a rational number 
 	Rational n = getrat("Please enter your numerator: ", "Please enter your denominator: "); 
 	
-	Rational a = i.add(n);
+	Rational a = i.add(n);// this adds two rational numbers
 	std::cout << "The numbers added are: ";
 	a.print();
 
-	Rational s = i.sub(n);
+	Rational s = i.sub(n);// this subtracts two rational numbers
 	std::cout << "The numbers subtracted are: ";
 	s.print();
 
-	Rational d = i.div(n);
+	Rational d = i.div(n);// this divides two rational numbers
 	std::cout << "The numbers divided are: ";
 	d.print();
 
-	Rational m = i.mult(n);
+	Rational m = i.mult(n);// this multipiles two rational numbers
 	std::cout << "The numbers multiplied are: ";
 	m.print();
 	
