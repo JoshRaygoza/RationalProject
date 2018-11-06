@@ -1,3 +1,9 @@
+/* 
+Authors: Alec Guinan
+File Name: Rational.h
+Date created: 11/1/2018
+Purpose: This creates a class called Rational
+*/
 #ifndef RATIONAL_H
 #define RATIONAL_H
 

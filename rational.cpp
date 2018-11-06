@@ -1,3 +1,9 @@
+/* 
+File Name: Rational.cpp
+Author: Alec Guinan
+Purpose: This defines the functions of the rational class
+Date Created: 11/1/2018
+*/
 #include <iostream>
 #include "rational.h"
 
